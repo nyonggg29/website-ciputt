@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bucin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Hallo sayanggkuu cantikk</h1>
+        <p> I am yours and you are mine.💕</p>
+    </header>
+
+    <!-- Bagian Utama -->
+    <main>
+        <!-- Galeri Foto -->
+        <section class="galeri">
+            <div class="foto-container">
+                <img src="Gambar WhatsApp 2025-01-12 pukul 19.55.53_04cea26c.jpg" alt="Foto Kenangan 1">
+                <img src="Gambar WhatsApp 2025-01-12 pukul 20.01.39_87d9fd4d.jpg" alt="Foto Kenangan 2">
+            </div>
+        </section>
+
+        <!-- Kata-kata Romantis -->
+        
+            
+            <P>Terima kasih ya sayangg udaa selalu ada buat aku selalu sabar ngadepin sikap aku </P>
+            <p>Ttp bareng aku ya sayangg,aku janji aku bakal terus berusaha buat kamu bahagia </p>
+            <p>Aku mungkin bukan yang terbaik, tapi aku akan selalu berusaha menjadi yang terbaik untukmu.</p>
+            <p >Cintamu adalah alasan aku tersenyum setiap hari❤</p>
+            <h3>ILOVEYOUMOREE🤍</h3>
+            
+        
+        
+
+        <!-- Countdown -->
+        <section class="countdown">
+            <h2>Hari Spesial Kita</h2>
+            <h3>29 juni 2019</h3>
+            <p>Hitung mundur ke anniversary:</p>
+            <div id="countdown-timer"></div>
+        </section>
+    </main>
+
+    <script>
+        // Countdown Script
+        const targetDate = new Date("2025-06-29").getTime();
+        const countdownElement = document.getElementById("countdown-timer");
+
+        setInterval(() => {
+            const now = new Date().getTime();
+            const difference = targetDate - now;
+
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+            countdownElement.innerHTML = `${days} Hari, ${hours} Jam, ${minutes} Menit, ${seconds} Detik`;
+        }, 1000);
+    </script>
+
+</body>
+</html>
+

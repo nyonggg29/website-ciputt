@@ -1,0 +1,69 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #ff9999;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #cc0000;
+}
+
+/* Galeri */
+.galeri {
+    text-align: center;
+}
+
+.foto-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foto-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Kata-kata Romantis */
+.kata-cinta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Countdown */
+.countdown {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
